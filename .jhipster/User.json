@@ -1,0 +1,24 @@
+{
+  "changelogDate": "20230515081954",
+  "clientRootFolder": "jhipster5",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "entityTableName": "jhi_user",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "age",
+      "fieldType": "Integer"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "jhipster5",
+  "name": "User",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

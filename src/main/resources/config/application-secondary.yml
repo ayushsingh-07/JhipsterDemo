@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: redis
+  datasource:
+    name: redis
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:redis://localhost:6379/0
+    username: redis
+    password: pass
+    hikari:
+      poolName: Redis
+      auto-commit: false
